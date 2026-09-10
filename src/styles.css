@@ -36,3 +36,13 @@ body{overflow-x:clip}.header{box-shadow:none}.nav-wrap{height:82px}.brand-link{h
 @media(max-width:800px){.hero{gap:20px}.hero-copy h1{width:105%}.hero-visual{width:calc(100% + 20px);height:auto;margin-left:0}.pizza-arrow{width:38px;height:38px}.pizza-arrow-prev{left:10px}.pizza-arrow-next{right:10px}}
 @media(max-width:600px){.hero{gap:0}.hero-copy h1{width:100%}.hero-visual{order:2;width:100%;height:auto;aspect-ratio:1;margin:18px 0 0;border-radius:0;transform:none}.pizza-carousel{border-radius:12px 2px 12px 2px}.pizza-arrow{width:40px;height:46px;border-radius:3px}.pizza-arrow-prev{left:0}.pizza-arrow-next{right:0}.pizza-dots{bottom:12px}.pizza-carousel-track img{object-position:center}}
 @media(max-width:360px){.hero-visual{height:auto}.pizza-arrow{width:36px;height:42px}}
+
+/* WhatsApp order CTA */
+.whatsapp-cta{grid-column:1/-1;width:max-content;display:flex;align-items:center;gap:12px;padding:9px 15px 9px 9px;background:#211f1f;color:#fff;border:2px solid #211f1f;border-radius:2px;font:700 1.18rem var(--serif);line-height:1;text-transform:uppercase;transition:transform .15s,background .15s}.whatsapp-cta:hover{transform:translateX(3px);background:#302e2e}.whatsapp-cta>span:nth-child(2){display:flex;flex-direction:column;gap:3px}.whatsapp-cta small{font:700 .58rem 'DM Sans',sans-serif;letter-spacing:.12em;color:#9cf2bb}.whatsapp-cta>svg{margin-left:7px;transition:transform .15s}.whatsapp-cta:hover>svg{transform:translateX(3px)}.whatsapp-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#25d366;color:#0d341b}.hero-buttons:has(.whatsapp-cta){row-gap:12px}
+@media(max-width:800px){.whatsapp-cta{font-size:1.08rem}}
+@media(max-width:600px){.whatsapp-cta{grid-column:auto;width:100%;max-width:360px;justify-content:flex-start}.whatsapp-cta>svg{margin-left:auto}}
+
+/* Footer legal links and site credit */
+.footer-legal{display:flex;align-items:center;gap:18px}.footer-legal a,.footer-credit{color:var(--muted);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}.footer-legal a:hover,.footer-credit:hover{color:var(--red)}
+@media(max-width:800px){.footer-bottom{align-items:flex-start;flex-wrap:wrap}.footer-credit{width:100%}}
+@media(max-width:600px){.footer-bottom{display:grid;grid-template-columns:1fr;gap:12px}.footer-legal{gap:16px}.footer-credit{width:auto}}

@@ -1,5 +1,6 @@
 export const business = {
   phone: '045 851 1527', phoneHref: 'tel:0458511527',
+  whatsapp: 'https://wa.me/393486646762?text=Ciao%2C%20vorrei%20ordinare%20una%20pizza.',
   menu: 'https://online.fliphtml5.com/iwommg/xypp/',
   maps: 'https://www.google.com/maps/search/?api=1&query=Pizzeria%20Ghiottone%20Via%20Bassone%2030a%20Basson%20Verona',
 };

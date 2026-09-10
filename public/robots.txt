@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lucamarastoni.github.io/Ghiottone/sitemap.xml
