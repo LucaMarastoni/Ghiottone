@@ -26,6 +26,8 @@ Pubblicare la cartella `dist/` su un hosting statico. `base: './'` supporta anch
 2. In Settings → Pages, selezionare GitHub Actions come sorgente.
 3. Il workflow `.github/workflows/deploy.yml` compila e pubblica a ogni push su `main`; può anche essere avviato manualmente.
 
+La configurazione Vite usa percorsi relativi (`base: './'`), quindi il sito funziona sia all’indirizzo `https://utente.github.io/nome-repository/` sia su un eventuale dominio personalizzato. Il file `public/.nojekyll` viene incluso nella build per impedire l’elaborazione Jekyll degli asset.
+
 Il sito è pronto per la pubblicazione; nessun account o repository remoto viene creato automaticamente.
 
 ## Modifiche
